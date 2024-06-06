@@ -7,11 +7,11 @@
 }
 
 .menu {
-    height: 80px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px;
+    padding: 20px 40px;
 }
 
 .menu__navegacao {
@@ -50,4 +50,28 @@
 
 .link-inative:hover {
     background-color: transparent !important;
+}
+
+/* RESPONSIVO DO HEADER */
+
+@media (max-width: 1000px) {
+    .menu,
+    .navegacao__lista {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.4rem;
+    }
+
+    .lista-secundaria__links {
+        display: none;
+    }
+
+    .icons {
+        width: 24px;
+        height: 24px;
+    }
+
+    .itens__subtitulo {
+        font-size: 0.8rem;
+    }
 }
