@@ -35,3 +35,7 @@ li {
     width: 32px;
     height: 32px;
 }
+
+.container {
+    margin: 40px 40px;
+}
