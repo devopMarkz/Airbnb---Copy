@@ -1,0 +1,53 @@
+@import url(./global.css);
+
+/* HEADER - MENU */
+
+.cabecalho {
+    border-bottom: solid rgba(147, 146, 146, 0.2) 1px;
+}
+
+.menu {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.menu__navegacao {
+    max-height: 80px;
+}
+
+.navegacao__lista {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+/* LINKS DO MENU - GERAL */
+
+.lista__links a {
+    color: var(--cor-secundaria);
+    white-space: nowrap;
+    padding: 12px;
+    border-radius: 24px;
+}
+
+.lista__links a:focus {
+    color: var(--cor-principal);
+    font-weight: 550;
+}
+
+.lista__links a:hover {
+    background-color: #F7F7F7;
+}
+
+.lista__links a:focus {
+    color: var(--cor-principal);
+}
+
+/* LINKS DO MENU - ESPECÍFICO */
+
+.link-inative:hover {
+    background-color: transparent !important;
+}

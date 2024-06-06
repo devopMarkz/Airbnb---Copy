@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color-principal);
 }
 
 a {
@@ -17,9 +18,20 @@ a {
     color: inherit;
 }
 
+li {
+    list-style-type: none;
+}
+
+/* ESTILOS COMPARTILHADOS */
+
 :root {
     --background-color-principal: #FFFFFF;
 
     --cor-principal: #262626;
     --cor-secundaria: #6A6A6A;
+}
+
+.icons {
+    width: 32px;
+    height: 32px;
 }
