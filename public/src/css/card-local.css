@@ -58,6 +58,6 @@
 }
 
 .item__avaliacao::before {
-    content: url(/public/assets/icons/estrela.svg);
+    content: url(/assets/icons/estrela.svg);
     align-self: center;
 }
