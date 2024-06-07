@@ -1,0 +1,14 @@
+/* SEÇÃO DE LOCAIS (A ESTILIZAÇÃO DOS CARDS ESTÁ NO ARQUIVO 'src/css/card-local.css' */
+
+.secao-pesquisa__locais {
+    margin: 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem .5rem;
+}
+
+.locais__cards {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}

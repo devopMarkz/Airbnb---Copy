@@ -1,0 +1,62 @@
+@import url(./global.css);
+
+.cards__item {
+    display: grid;
+    grid-template-areas: 
+    "imagem imagem"
+    "local avaliacao"
+    "distancia distancia"
+    "data data"
+    "valor valor";
+    font-size: 0.9rem;
+}
+
+/* ITENS DO CARD */
+
+.item__imagem {
+    display: block;
+    max-width: 299px;
+    max-height: 384px;
+    border-radius: 10px;
+    grid-area: imagem;
+    margin-bottom: 10px;
+}
+
+.item__localidade {
+    grid-area: local;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.item__distancia {
+    grid-area: distancia;
+}
+
+.item__data {
+    grid-area: data;
+}
+
+.item__valor {
+    grid-area: valor;
+}
+
+.item__data,
+.item__distancia {
+    color: var(--cor-secundaria);
+}
+
+.item__valor span {
+    font-weight: 600;
+}
+
+.item__avaliacao {
+    grid-area: avaliacao;
+    justify-self: end;
+    display: flex;
+    gap: 3px; /* Distancia a estrela da avaliação */
+}
+
+.item__avaliacao::before {
+    content: url(/public/assets/icons/estrela.svg);
+    align-self: center;
+}
