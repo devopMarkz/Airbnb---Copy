@@ -2,6 +2,7 @@
 
 .cards__item {
     display: grid;
+    grid-template-rows: auto auto auto auto auto;
     grid-template-areas: 
     "imagem imagem"
     "local avaliacao"
