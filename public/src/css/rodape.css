@@ -33,3 +33,14 @@
     color: black;
     text-decoration-color: black;
 }
+
+@media (max-width: 1000px) {
+    .rodape__container {
+        flex-direction: column;
+    }
+
+    .rodape__container__lista {
+        padding: 10px 0;
+        border-bottom: solid rgba(147, 146, 146, 0.2) 1px;
+    }
+}

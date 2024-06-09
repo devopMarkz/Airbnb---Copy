@@ -21,4 +21,7 @@
 
 .secao-final__title {
     margin: 60px 0 30px 0;
+    font-weight: 400;
+    font-size: 0.9rem;
+    white-space: nowrap;
 }
