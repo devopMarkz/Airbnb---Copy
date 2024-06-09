@@ -1,4 +1,5 @@
 .mostrar-mais-button {
+    white-space: nowrap;
     background-color: #222222;
     border-radius: 8px;
     color: #FFF;

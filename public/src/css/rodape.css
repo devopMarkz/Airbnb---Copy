@@ -1,0 +1,35 @@
+@import url(/src/css/global.css);
+
+/* RODAPÉ */
+
+.rodape {
+    padding: 40px 40px;
+    font-size: 0.9rem;
+    color: var(--cor-secundaria);
+    font-weight: 300;
+    background-color: #F7F7F7;
+    border-top: solid rgba(147, 146, 146, 0.2) 1px;
+    margin-top: 60px;
+}
+
+.rodape__container {
+    display: flex;
+    gap: 10%;
+}
+
+.rodape__container__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.rodape__container__lista__title {
+    color: black;
+    font-weight: 450;
+}
+
+.rodape__container__lista__link:hover {
+    text-decoration: underline;
+    color: black;
+    text-decoration-color: black;
+}
