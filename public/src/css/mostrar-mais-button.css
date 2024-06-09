@@ -1,0 +1,12 @@
+.mostrar-mais-button {
+    background-color: #222222;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 600;
+    padding: 14px 24px;
+    text-align: center;
+}
+
+.mostrar-mais-button:hover {
+    background-color: #000;
+}

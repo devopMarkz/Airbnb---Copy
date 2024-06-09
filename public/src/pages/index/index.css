@@ -12,3 +12,13 @@
     display: flex;
     justify-content: center;
 }
+
+/* SEÇÃO DE MOSTRAR MAIS, ABAIXO DA SEÇÃO DE LOCAIS */
+
+.secao-final {
+    text-align: center;
+}
+
+.secao-final__title {
+    margin: 60px 0 30px 0;
+}
